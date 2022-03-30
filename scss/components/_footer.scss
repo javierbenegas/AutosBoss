@@ -1,28 +1,8 @@
-/*Reseteo de CSS*/
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family:  'Alata', sans-serif;
-}
-/*Modificacion de Navbar*/
 
-/*Modificacion de icono de Navbar*/
-.imagen-navbar{
-    height: 50px;
-    width: auto;
-    padding-right: 50px;
+/*Modificacion de lista en footer*/
+.footer-modif{
+    @include colores (black, antiquewhite);
 }
-/*Modificacion color de boton*/
-.btn-navbar{
-    color: white;
-    border-color: white;
-}
-/*Cambio de fondo en todo el carrusel*/
-#contenedor-carrusel{
-    background-color: black;
-}
-
 /*Modificacion de icono de footer*/
 .img-navbar-footer{
     height: 50px;

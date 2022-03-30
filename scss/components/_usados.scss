@@ -1,0 +1,10 @@
+@import "../components/maps";
+
+/* AUTOS USADOS*/
+.titulo-usados{
+    background-color: map-get($estilos, color1);
+    color: map-get($estilos, color2);
+    text-align: map-get($estilos, centralizado);
+    margin-bottom: 35px;
+    text-shadow: 5PX;
+}

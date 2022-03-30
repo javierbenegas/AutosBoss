@@ -1,50 +1,10 @@
 @import "./base/mixin";
+@import "./base/extends";
+@import "./base/colores";
 
-/*Modificacion de Navbar*/
-.navbar-modificada {
-    @include colores (black, antiquewhite);
-}
-
-/*Modificacion de Carrusel de imagenes*/
-.carrusel-modificado {
-    margin: auto;;
-    @include colores (black, antiquewhite);
-}
-
-/*Modificaciones para tarjetas*/
-.card-modificada{
-    @include colores (black, black);
-    padding: 25px 25px 75px 25px;
-}
-
-/*Cambios en boton de las cards*/
-.btn-card{
-    margin: 25px;
-    @include colores (rgb(46, 42, 42), antiquewhite);
-    border-color: rgb(46, 42, 42);
-}
-
-/*Modificacion de lista en footer*/
-.footer-modif{
-    @include colores (black, antiquewhite);
-}
-
-/*Modificaciones a formulario*/
-.form-modificado{
-    @include colores (black, antiquewhite);
-    padding: 35px 15px 35px 15px;
-}
-/*Boton de formulario*/
-.btn-primary-modificado{
-    @include colores (rgb(68, 65, 65), antiquewhite);
-    border-color: rgb(68, 65, 65);
-}
-
-
-/* AUTOS USADOS*/
-.titulo-usados{
-    @include colores (black, antiquewhite);
-    text-align: center;
-    margin-bottom: 35px;
-    text-shadow: 5PX;
-}
+@import "./components/header";
+@import "./components/main";
+@import "./components/footer";
+@import "./components/formulario";
+@import "./components/usados";
+@import "./components/maps";

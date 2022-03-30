@@ -1,7 +1,32 @@
-/*Modificacion de Navbar*/
-.navbar-modificada {
+@charset "UTF-8";
+.btn-primary-modificado, .btn-card {
+  background-color: #2e2a2a;
+  color: antiquewhite;
+  border-color: #2e2a2a;
+}
+
+/*Modificacion de icono de Navbar*/
+.imagen-navbar {
+  height: 50px;
+  width: auto;
+  padding-right: 50px;
+}
+
+/*Modificacion color de boton*/
+.btn-navbar {
+  color: white;
+  border-color: white;
   background-color: black;
   color: antiquewhite;
+}
+
+.navbar-modificada {
+  background-color: black;
+}
+
+/*Cambio de fondo en todo el carrusel*/
+#contenedor-carrusel {
+  background-color: black;
 }
 
 /*Modificacion de Carrusel de imagenes*/
@@ -21,15 +46,51 @@
 /*Cambios en boton de las cards*/
 .btn-card {
   margin: 25px;
-  background-color: #2e2a2a;
-  color: antiquewhite;
-  border-color: #2e2a2a;
 }
 
 /*Modificacion de lista en footer*/
 .footer-modif {
   background-color: black;
   color: antiquewhite;
+}
+
+/*Modificacion de icono de footer*/
+.img-navbar-footer {
+  height: 50px;
+  width: auto;
+}
+
+/*Correccion para decoración de links*/
+.link-corregido {
+  text-decoration: none;
+}
+
+/*Whatsapp flotante*/
+.whatsapp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: black;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+/*Animacion para Whatsapp flotante*/
+.whatsapp:hover {
+  text-decoration: none;
+}
+
+/*Correccion de margenes para iconos*/
+.margen-icon {
+  margin-right: 0.8rem;
+  margin-left: 0.8rem;
 }
 
 /*Modificaciones a formulario*/
@@ -40,12 +101,6 @@
 }
 
 /*Boton de formulario*/
-.btn-primary-modificado {
-  background-color: #444141;
-  color: antiquewhite;
-  border-color: #444141;
-}
-
 /* AUTOS USADOS*/
 .titulo-usados {
   background-color: black;
