@@ -11,5 +11,5 @@
     @include colores (black, antiquewhite);
 }
 .navbar-modificada{
-    background-color: black;
+    @include colores (black, antiquewhite);
 }

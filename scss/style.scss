@@ -8,3 +8,23 @@
 @import "./components/formulario";
 @import "./components/usados";
 @import "./components/maps";
+
+.filtro-catalogo{
+    @include colores (black, antiquewhite);
+    padding-right: 55px;
+}
+.list-group-modificado{
+    @include colores (black, antiquewhite);
+    position: relative;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.borde-catalogo{
+    border-left: 2px solid antiquewhite;
+}
+.link-prop{
+    display: block;
+    color: antiquewhite;
+}

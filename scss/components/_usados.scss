@@ -5,6 +5,14 @@
     background-color: map-get($estilos, color1);
     color: map-get($estilos, color2);
     text-align: map-get($estilos, centralizado);
-    margin-bottom: 35px;
-    text-shadow: 5PX;
+    text-shadow: 5px;
+}
+.img-portada{
+    max-width: 45%;
+    height: auto;
+}
+.centrar-img{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 65px;
 }

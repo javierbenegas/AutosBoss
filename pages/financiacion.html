@@ -37,7 +37,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -49,20 +49,60 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./financiacion.html">Financiación</a>
+                <a class="nav-link active" href="./financiacion.html">Financiación</a>
               </li>
               <li class="nav-item">
                 <a href="./contacto.html" class="nav-link">Contacto</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-navbar" type="submit">Buscar</button>
-            </form>
           </div>
         </div>
       </nav>
     
+      
+    <!--Formulario de contacto-->
+    <main class="form-modificado">
+      <form class="row g-3 col-lg-6 form-modificado">
+        <h4>Contacto</h4>
+        <div class="col-md-10">
+          <label for="inputEmail4" class="form-label">Nombre</label>
+          <input type="name" class="form-control" id="inputEmail4" required="">
+        </div>
+        <div class="col-md-10">
+          <label for="inputPassword4" class="form-label">Apellido</label>
+          <input type="name" class="form-control" id="inputPassword4" required="">
+        </div>
+        <div class="col-10">
+          <label for="inputAddress" class="form-label">Celular</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="+54 9 299 999 9999" required="">
+        </div>
+        <div class="col-10">
+          <label for="inputAddress2" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="inputAddress2" placeholder="example@example.com" required="">
+        </div>
+        <h4>Calcula tu cuota</h4>
+        <div class="col-7">
+          <label for="inputAddress" class="form-label">Valor del vehículo</label>
+          <input type="number" class="form-control" id="inputAddress" placeholder="$ 99999,99" required="">
+        </div>
+        <div class="col-7">
+          <label for="inputAddress2" class="form-label">Entrega inicial</label>
+          <input type="number" class="form-control" id="inputAddress2" placeholder="$ 99999,99" required="">
+        </div>
+        <div class="col-7">
+          <label for="inputAddress" class="form-label">Cantidad de cuotas</label>
+          <input type="number" class="form-control" id="inputAddress" placeholder="" required="">
+        </div>
+
+         <div class="col-10">
+          <button type="submit" class="btn btn-primary-modificado">Calcular</button>
+        </div>
+      </form>
+    </main>
+
+
+
+
 
 
 
