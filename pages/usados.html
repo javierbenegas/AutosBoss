@@ -27,7 +27,7 @@
 
 </head>
 <body>
-  <nav class="navbar navbar-dark navbar-expand-lg navbar-light navbar-modificada">
+  <nav class="navbar navbar-dark navbar-expand-lg navbar-light navbar-modificada row">
       <div class="container-fluid">
         <img class="imagen-navbar" src="../img/auto_icono.png" alt="">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,29 +62,43 @@
 
   <!-- Cards para vista de articulos-->
 
-  <main class="card-modificada">
+  <main class="card-modificada row">
     <div class="centrar-img">
       <img src="../img/Color_PNG.png" class="img-portada" alt="portada">
     </div>
     <h1 class="titulo-usados">Vehículos Usados</h1>
     <!--Filtro + imagenes-->
   </main>  
+  
+  
   <aside class="card-modificada row" >
     <div class="col-lg-3 filtro-catalogo">
-      <h3 class="filtro-catalogo">Filtros</h3>
-      <nav class="nav navbar navbar-dark navbar-expand-lg navbar-light navbar-modificada">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-       <div id="navbarSupportedContent "> 
-        <a class="nav-link link-prop " href="#">Mercedes Benz</a>
-        <a class="nav-link link-prop disabled" href="#">Ferrari</a>
-        <a class="nav-link link-prop disabled" href="#">Honda</a>
-        <a class="nav-link link-prop disabled" href="#">Cuatriciclos</a>
-      </div>
-      </nav>
+        <h3 class="filtro-catalogo">Filtrar marcas</h3>
+        <nav class="filtro-menu">
+          <div class="filtro-container">
+            <div class="lista-menu">
+              <a href="#" class="filtro-item">Mercedes Benz</a>
+              <a href="#" class="filtro-item">Ferrari</a>
+              <a href="#" class="filtro-item">Honda</a>
+              <a href="#" class="filtro-item">Cuatriciclos</a>
+            </div>
+          </div>
+        </nav>
     </div>  
     
+    <div class="dropdown dropdown-modificado">
+      <button class="btn btn-secondary-modificado dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+        Filtrar
+      </button>
+      <ul class="dropdown-menu dropdown-menu-dark-modificado" aria-labelledby="dropdownMenuButton2">
+        <li><a class="dropdown-item-modificado" href="#">Mercedez Benz</a></li>
+        <li><a class="dropdown-item-modificado" href="#">Ferrari</a></li>
+        <li><a class="dropdown-item-modificado" href="#">Honda</a></li>
+        <li><a class="dropdown-item-modificado" href="#">Cuatriciclos</a></li>
+      </ul>
+    </div>
+
+
     <div class="col-lg-9 borde-catalogo">  
       <div class="row row-cols-1 row-cols-md-3 g-3">
         <div>
@@ -224,7 +238,7 @@
   </section>
     
   <!-- Footer de la pagina -->
-  <footer class="footer-modif text-center text-lg-start">
+  <footer class="footer-modif text-center text-lg-start row">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
       <!-- Left -->
